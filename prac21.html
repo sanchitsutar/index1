@@ -1,0 +1,49 @@
+﻿<html>
+<head>
+<title> Practical 21 </title>
+
+</head>
+<body bgcolor="powderblue" ><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYQ4wtMSE51kkxQ2l-Ul_yVSWMGhOQpBU1ig&s" width="700">
+    <h1>WPD Feedback Form</h1>
+    <h2>Please note down your views </h2>
+
+        <form action="/action_page.php" method="get" id="form1" target="blank">
+            <label for="Feedback">Two-line feedback about the teacher:- </label>
+            <input type="text" id="feedback" name="feedback"><br>
+        
+<p>the fieldset below is outside the form, but still a part of the farm.</p><br>
+   <form>
+    <fieldset form="form1" >
+        <legend>Personal info </legend>
+        <label for="fname">First Name </label>
+        <input type="text" id="fname" name="fname" ><br><br>
+        <label for="lname">Last Name </label>
+        <input type="text" id="lname" name="lname" ><br><br>
+        <label>Gender</label><br><br>
+        <input type="radio" name="gender" value="Male">Male
+        <input type="radio" name="gender" value="Female">Female 
+        <input type="radio" name="gender" value="Other">Other<br><br>
+        <label for="emali">Email</label>
+        <input type="text" id="email" name="email" ><br><br>
+        <label for="Birthdate">Birthdate</label>
+        <input type="date" id="Birthdate" name="Birthdate" ><br><br>
+        <input type="checkbox" id="year" >FY <br>
+        <input type="checkbox" id="year" >SY<br>
+        <input type="checkbox" id="year" >TY <br><br>
+
+        <label for="branch">Branch</label>  <br>     
+        <select id="branch">
+        <option value="Information Technology">Information Technology</option>
+        <option value="Computer engineering">Computer engineering</option>
+        <option value="Mecahnical engineering">Mecahnical engineering</option>
+        <option value="Civil engineering">Civil engineering</option><br>
+
+        <br><input type="submit" value="please submit"><br>
+        </fieldset>
+    </form>
+
+        
+</body>
+</html>
+
+
